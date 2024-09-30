@@ -1,92 +1,92 @@
 body {
-    font-family: 'Press Start 2P', cursive;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #e0f7fa;  
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa;
 }
 
 .calculator {
-    width: 300px;
-    padding: 20px;
-    background-color: #414355;  
-    border-radius: 20px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+  background-color: #414355;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #screen {
-    width: 100%;
-    height: 60px;
-    background-color: #7E8A7B; 
-    color: #ffffff;
-    text-align: right;
-    padding: 15px;
-    font-size: 35px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    font-family: 'Press Start 2P', cursive;  
+  width: 100%;
+  height: 60px;
+  background-color: #7E8A7B;
+  color: #ffffff;
+  text-align: right;
+  padding: 15px;
+  font-size: 35px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-left: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-left: 5px;
 }
 
 button {
-    width: 60px;
-    height: 60px;
-    background-color: #9BADB7;  /* Bright orange for fun */
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
-    color: white;
-    cursor: pointer;
-    font-family: 'Press Start 2P', cursive;  /* Fun pixelated font */
+  width: 60px;
+  height: 60px;
+  background-color: #9BADB7;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
 }
 
 button:hover {
-    background-color: #7c8a92; 
+  background-color: #7c8a92;
 }
- 
+
 #specialbtn {
-    background-color: #687c88;
-    font-size: 12px;  
+  background-color: #687c88;
+  font-size: 12px;
 }
 
 #specialbtn:hover {
-    background-color: #53626b;
+  background-color: #53626b;
 }
 
 #hello {
-    background-color: #8bc34a;
-    font-size: 10px;  
+  background-color: #8bc34a;
+  font-size: 10px;
 }
 
 #hello:hover {
-    background-color: #7cb342;
+  background-color: #7cb342;
 }
 
 
 #bye {
-    background-color: #b34242;
-    font-size: 12px; 
+  background-color: #b34242;
+  font-size: 12px;
 }
 
 #bye:hover {
-    background-color: #d14c4c;
+  background-color: #d14c4c;
 }
 
 
 #equal {
-    background-color: #e68746;
-    font-size: 12px; 
+  background-color: #e68746;
+  font-size: 12px;
 }
 
 #equal:hover {
-    background-color: #c2713b;
+  background-color: #c2713b;
 }
