@@ -11,9 +11,6 @@ function insert(value) {
         const current = screen.innerHTML;
         if (current.length >= 8) return;
 
-        const lastNumber = current.split(/[\+\-\*\/]/).pop(); 
-        if (value === '.' && lastNumber.includes('.')) return;
-
         if (/[\+\-\*\/]$/.test(current) && /[\+\-\*\/]/.test(value)) return;
 
         if (current === '0' || current === 'Error') {
