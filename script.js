@@ -12,8 +12,8 @@ function insert(value) {
         if (current.length >= 9) return;
 
         if (current === 0)  return; 
-        
-        if (/[\+\-\*\/\.]$/.test(current) && /[\+\-\*\/\.]/.test(value)) return;
+
+        if (/[\+\-\*\/\.]/.test(current) && /[\+\-\*\/\.]/.test(value)) return;
 
         if (current === '0' || current === 'Error') {
             screen.innerHTML = value;
