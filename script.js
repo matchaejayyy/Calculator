@@ -11,7 +11,7 @@ function insert(value) {
         const current = screen.innerHTML;
         if (current.length >= 8) return;
 
-        if (/[\+\-\*\/]$/.test(current) && /[\+\-\*\/]/.test(value)) return;
+        if (/[\+\-\*\/\.]$/.test(current) && /[\+\-\*\/\.]/.test(value)) return;
 
         if (current === '0' || current === 'Error') {
             screen.innerHTML = value;
